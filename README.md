@@ -7,7 +7,7 @@ This interface is for setting up your Loxone Devices in Homegear.
 The interface comes with a spacil Menu to monitor and creat the Devices.
 The interface also has a section where you can look at the Loxone log and errorlog.
 
-copy all these files to '/var/lib/homegear/www/rpc/Loxone' on your Homegear Server.
+copy all the files from source to '/var/lib/homegear/www/rpc/Loxone' on your Homegear Server.
 
 Enter http://ip_of_homegear:2001/Loxone/ in your webbrowser to use the interface.
 
