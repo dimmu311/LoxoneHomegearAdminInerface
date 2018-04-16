@@ -17,7 +17,7 @@ $(document).ready(function () {
 	$("#log").click(function () {
 		$.ajax({	
 			type: "GET",
-			url: "assets/php/log/log.php",
+			url: "assets/php/logging/log.php",
 			cache: false,
 			success: function (result) {
 				$(".dynamicContent").remove();
@@ -72,7 +72,7 @@ $(document).ready(function () {
 			var dataString = 'file=' + file + '&grep=' + grep;
 			$.ajax({
 				type: "POST",
-				url: "assets/php/log/generateLog.php",
+				url: "assets/php/logging/generateLog.php",
 				data: dataString,
 				cache: false,
 				success: function (result) {
